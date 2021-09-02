@@ -24,9 +24,6 @@
     <!-- AOS -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  
-
-    
 
     <script
       type="module"
@@ -81,7 +78,7 @@
             <a href="#cta" class="btn btn--full margin-right-sm">Say Hello</a>
 
             <a href="#about" class="btn btn--outline">About &darr;</a>
-            
+
             <!-- Add?? -->
             <!-- <div class="delivered-projects">
               <div class="delivered-imgs">
@@ -149,8 +146,7 @@
             <br />
             <br />Here are a few of the skills I've attained so far:
           </p>
-        </div> 
-        
+        </div>
 
         <!-- ABOUT Grid -->
         <div class="container grid grid--2-cols grid--center-v">
@@ -166,26 +162,23 @@
           </div>
 
           <div class="step-img-box">
-           
-              <img
-               src="img/laptop-img.png"
-               class="step-img"
-               data-aos="zoom-in"
-               alt="iPhone app
+            <img
+              src="img/laptop-img.png"
+              class="step-img"
+              data-aos="zoom-in"
+              alt="iPhone app
               preferences selection screen"
-              />
-          
+            />
           </div>
 
           <!-- STEP 02 (JavaScript)-->
-          <div class="step-img-box" >
+          <div class="step-img-box">
             <img
               src="img/laptop-img.png"
               class="step-img"
               data-aos="zoom-in"
               alt="iPhone app
             projects approving plan screen"
-            
             />
             <!-- <button class="demo-btn" onclick="location.href='https://omnifood-trevor.netlify.app'"
             target="_blank">Try Me</button> -->
@@ -195,7 +188,8 @@
             <p class="step-number">02</p>
             <h3 class="heading-tertiary">JavaScript</h3>
             <p class="step-description">
-              I've implemented various modern JavaScript (ES6) features to make this site responsive and interactive.
+              I've implemented various modern JavaScript (ES6) features to make
+              this site responsive and interactive.
             </p>
           </div>
 
@@ -210,18 +204,13 @@
           </div>
 
           <div class="step-img-box">
-
-            
             <img
               src="img/laptop-img.png"
               class="step-img"
               data-aos="zoom-in"
               alt="iPhone app
             delivery screen"
-            
-            
             />
-          
           </div>
         </div>
       </section>
@@ -233,7 +222,6 @@
         </div>
 
         <div class="container grid grid--3-cols margin-bottom-md">
-
           <div
             class="projects"
             onclick="window.open('https://forkify-trevor.netlify.app')"
@@ -316,8 +304,6 @@
               </ul>
             </div>
           </div>
-
-          
 
           <div class="diets">
             <h3 class="heading-tertiary">Project features:</h3>
@@ -642,103 +628,76 @@
                 profits! Start promoting your business today!
               </p>
 
-              <form name="cta-form" method="POST" data-netlify="true" id="cta-form" class="cta-form">
+              <form
+                name="cta-form"
+                method="POST"
+                data-netlify="true"
+                id="cta-form"
+                class="cta-form"
+              >
                 <div class="cta-template">
                   <div>
-                <p class="form-row">
-                    <label for="full-name">Full Name</label>
-                    <input type="text" name="full-name" id="full-name" aria-labelledby="full-name" class="form-input" required/>
-                </p>
+                    <p class="form-row">
+                      <label for="full-name">Full Name</label>
+                      <input
+                        type="text"
+                        name="full-name"
+                        id="full-name"
+                        aria-labelledby="full-name"
+                        class="form-input"
+                        required
+                      />
+                    </p>
+                  </div>
 
-              </div>
+                  <div>
+                    <p class="form-row">
+                      <label id="email" for="email">Email address</label>
+                      <input
+                        type="email"
+                        name="email"
+                        id="mail"
+                        aria-labelledby="email"
+                        class="form-input"
+                      />
+                    </p>
+                  </div>
 
-              <div>
-                <p class="form-row">
-                    <label id="email" for="email">Email address</label>
-                    <input type="email" name="email" id="mail" aria-labelledby="email" class="form-input" />
-                </p>
-              </div>
-              
-
-              <div>
-                <p class="form-row">
-                    <label id="message" for="message" class="form-input">Please ask a question</label>
-                    <textarea
+                  <div>
+                    <p class="form-row">
+                      <label id="message" for="message" class="form-input"
+                        >Please ask a question</label
+                      >
+                      <textarea
                         name="message"
                         id="message"
                         aria-labelledby="message"
                         class="form-input"
                         rows="7"
-                    ></textarea>
-                </p>
-              </div>
+                      ></textarea>
+                    </p>
+                  </div>
 
-              
-                <div class="form-row">
-                  <label for="select-where" >Where did you hear about me?</label>
-                  <select  id="select-where" name="select-where" required>
-                    <option value="">Please select one:</option>
-                    <option value="LinkedIn">LinkedIn</option>
-                    <option value="UpWork">UpWork</option>
-                    <option value="Facebook">Facebook</option>
-                    <option value="Friends">Friends</option>
-                    <option value="Other">Others</option>
-                  </select>
-                </div>
+                  <div class="form-row">
+                    <label for="select-where"
+                      >Where did you hear about me?</label
+                    >
+                    <select id="select-where" name="select-where" required>
+                      <option value="">Please select one:</option>
+                      <option value="LinkedIn">LinkedIn</option>
+                      <option value="UpWork">UpWork</option>
+                      <option value="Facebook">Facebook</option>
+                      <option value="Friends">Friends</option>
+                      <option value="Other">Others</option>
+                    </select>
+                  </div>
 
-                <p class="form-row form-submit">
-                    <button type="submit" class="btn btn--form">Send Message</button>
-                </p>
-              </div>
-              
-            </form>
-
-              <!-- <form class="cta-form" name="sign-up" netlify>
-                <div>
-                  <label for="full-name">Full Name</label>
-                  <input
-                    id="full-name"
-                    type="text"
-                    placeholder="Full Name"
-                    name="full-name"
-                    required
-                  />
-                </div>
-
-                <div>
-                  <label for="email">Email address</label>
-                  <input
-                    id="email"
-                    type="email"
-                    placeholder="name@example.com"
-                    name="email"
-                    required
-                  />
-                </div>
-
-                <div>
-                  <p>
-                    <label>Please ask a question: </label>
-                    <textarea name="message"></textarea>
+                  <p class="form-row form-submit">
+                    <button type="submit" class="btn btn--form">
+                      Send Message
+                    </button>
                   </p>
                 </div>
-
-                <div>
-                  <label for="select-where">Where did you hear about me?</label>
-                  <select id="select-where" name="select-where" required>
-                    <option value="">Please select one:</option>
-                    <option value="LinkedIn">LinkedIn</option>
-                    <option value="UpWork">UpWork</option>
-                    <option value="Facebook">Facebook</option>
-                    <option value="Friends">Friends</option>
-                    <option value="Other">Others</option>
-                  </select>
-                </div>
-
-                <button class="btn btn--form">Sign up now</button>
-
-                <!-- <input type="checkbox" />
-                <input type="number" /> -->
               </form>
             </div>
             <div class="cta-img-box" role="img" aria-label="Laptop"></div>
@@ -783,8 +742,7 @@
           <address class="contacts">
             <p class="address">San Diego, California</p>
             <p>
-              <a class="footer-link" href="tel:">XXX.XXX.XXXX</a
-              ><br />
+              <a class="footer-link" href="tel:">XXX.XXX.XXXX</a><br />
               <a class="footer-link" href="mailto:trevormcgirr@gmail.com"
                 >Email</a
               >
