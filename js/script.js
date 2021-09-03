@@ -95,8 +95,3 @@ AOS.init({
 });
 
 //////////////////////////////////////////////////////////////
-
-function apiDemo() {
-  var element = document.querySelector("api-toggle");
-  element.classList.toggle("mystyle");
-}
