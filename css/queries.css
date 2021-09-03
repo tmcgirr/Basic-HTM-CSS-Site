@@ -69,7 +69,6 @@
 
 @media (max-width: 59em) {
   html {
-    /* 8px / 16px = 0.5 = 50% */
     font-size: 50%;
   }
 
@@ -119,7 +118,6 @@
   }
 
   .cta {
-    /* 3/5 = 60% + 2/5 = 40% */
     grid-template-columns: 3fr 2fr;
   }
 
@@ -230,6 +228,11 @@
     grid-column: span 2;
     margin-bottom: 3.2rem;
   }
+
+  .gallery {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.2rem;
+  }
 }
 
 /**************************/
@@ -286,7 +289,7 @@
   }
 
   .gallery {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 1.2rem;
   }
 
@@ -303,14 +306,6 @@
     grid-row: 1;
   }
 }
-
-/* 
-- Font sizes (px)
-10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
-
-- Spacing system (px)
-2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
-*/
 
 /**************************/
 /* Fixing Safari flexbox gap */

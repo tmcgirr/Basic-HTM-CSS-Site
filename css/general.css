@@ -128,10 +128,6 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 
-/* .grid--5-cols {
-  grid-template-columns: repeat(5, 1fr);
-} */
-
 .grid--center-v {
   align-items: center;
 }
@@ -143,8 +139,6 @@ body {
 .heading-tertiary {
   font-weight: 700;
   color: #000000;
-  /* color: #45260a; */
-  /* color: #343a40; */
   letter-spacing: -0.5px;
 }
 
@@ -252,6 +246,7 @@ body {
 .link:active {
   color: rgb(160, 0, 0);
   border-bottom: 1px solid transparent;
+  cursor: pointer;
 }
 
 .list {
@@ -277,8 +272,6 @@ body {
 
 *:focus {
   outline: none;
-  /* outline: 4px dotted #e67e22; */
-  /* outline-offset: 8px; */
   box-shadow: 0 0 0 0.2rem rgba(150, 150, 150, 0.788);
 }
 
